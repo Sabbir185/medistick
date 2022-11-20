@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+// @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "partials/dashboard";
+@import "partials/form";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.video_section {
+    background-image: url('/img/Bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #0095B6!important;
+}
+
+.bg_abstract {
+    background-image: url('/bg123.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
