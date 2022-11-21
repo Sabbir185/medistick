@@ -29,7 +29,9 @@ const Footer = () => {
                             <p className='text-base'>Intro Video</p>
                         </div>
                         <div className="flex justify-center mt-3 pt-2">
-                            <iframe width="250" height="200" src="https://www.youtube.com/embed/5I8oC1d4lh8" title="Deno v1.28: npm compatibility is stable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            {/* <iframe width="250" height="200" src="https://www.youtube.com/embed/5I8oC1d4lh8" title="Deno v1.28: npm compatibility is stable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+
+                            <iframe width="300" height="250" src="https://www.youtube.com/embed/oImP8uRoq58" title="Ecomic Flutter App Template | User + Vendor+ Delivery App | Appstick | Devignedge" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -49,11 +51,11 @@ const Footer = () => {
                             </div>
                             <div className="flex gap-3">
                                 <p><img src="/img/sms-tracking.png" className="w-6 h-6" alt="" /></p>
-                                <p className="text-[14px]"><a href="mailto:info@appstick.com.bd" className='text-gray-700' style={{textDecoration: 'none'}}>info@appstick.com.bd</a></p>
+                                <p className="text-[14px]"><a href="mailto:info@appstick.com.bd" className='text-gray-700' style={{ textDecoration: 'none' }}>info@appstick.com.bd</a></p>
                             </div>
                             <div className="flex gap-3">
                                 <p><img src="/img/global-search.png" className="w-6 h-6" alt="" /></p>
-                                <p className="text-[14px]"><a href="https://appstick.com.bd/" target='_blank' rel="noreferrer" className='text-gray-700' style={{textDecoration: 'none'}}>https://appstick.com.bd/</a></p>
+                                <p className="text-[14px]"><a href="https://appstick.com.bd/" target='_blank' rel="noreferrer" className='text-gray-700' style={{ textDecoration: 'none' }}>https://appstick.com.bd/</a></p>
                             </div>
                         </div>
 
@@ -74,9 +76,13 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-10 flex items-center justify-center">
-                    <button className="w-36 h-12 inline-block rounded-md bg-[#0095B6] hover:bg-cyan-700 text-white text-center shadow-2xl shadow-cyan-200">
-                        Download Apk
-                    </button>
+                    <Link href="https://drive.google.com/file/d/177rzkEX01U9bwAn-ZBy7M8UWU00kJlqi/view">
+                        <a target='_blank'>
+                            <button className="w-36 h-12 inline-block rounded-md bg-[#0095B6] hover:bg-cyan-700 text-white text-center shadow-2xl shadow-cyan-200">
+                                Download Apk
+                            </button>
+                        </a>
+                    </Link>
                 </div>
             </div>
         </section>

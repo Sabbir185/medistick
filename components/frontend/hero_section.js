@@ -11,11 +11,11 @@ const HeroSection = () => {
                     <img src="/img/Logo (2).png" alt="" srcset="" />
                 </div>
                 <div className="md:flex md:items-center md:gap-5 pt-3 md:pt-0">
-                    <Link href="#">
-                        <a style={{ textDecoration: "none" }} className="text-gray-700 hover:text-blue-500 whitespace-pre"> Download Documentation</a>
+                    <Link href="https://drive.google.com/file/d/1NURtJjkJP-VwRLljwQ88ttOJ5KyQqeb3/view">
+                        <a style={{ textDecoration: "none" }} target='_blank' className="text-gray-700 hover:text-blue-500 whitespace-pre">Documentation</a>
                     </Link>
-                    <Link href="#">
-                        <a>
+                    <Link href="https://codecanyon.net/user/appstickltd/portfolio">
+                        <a target='_blank'>
                             <img src="/img/Purchase.png" alt="" srcset="" />
                         </a>
                     </Link>
@@ -30,8 +30,16 @@ const HeroSection = () => {
                     <p className="">Being Healthy & Fit Isn&apos;t a Fad or a Trend, It&apos;s a Lifestyle.</p>
 
                     <div className="my-10 flex gap-8">
-                        <button className="w-36 h-12 inline-block rounded-md bg-[#0095B6] hover:bg-cyan-700 text-white text-center shadow-2xl shadow-cyan-200">Download Apk</button>
-                        <button className="w-36 h-12 inline-block rounded-md bg-[#43BEC6] hover:bg-cyan-500 text-white text-center shadow-2xl shadow-cyan-200">Buy Now</button>
+                        <Link href="https://drive.google.com/file/d/177rzkEX01U9bwAn-ZBy7M8UWU00kJlqi/view">
+                            <a target='_blank'>
+                                <button className="w-36 h-12 inline-block rounded-md bg-[#0095B6] hover:bg-cyan-700 text-white text-center shadow-2xl shadow-cyan-200">Download Apk</button>
+                            </a>
+                        </Link>
+                        <Link href="https://codecanyon.net/user/appstickltd/portfolio">
+                            <a target='_blank'>
+                                <button className="w-36 h-12 inline-block rounded-md bg-[#43BEC6] hover:bg-cyan-500 text-white text-center shadow-2xl shadow-cyan-200">Buy Now</button>
+                            </a>
+                        </Link>
                     </div>
                 </div>
                 <div>
