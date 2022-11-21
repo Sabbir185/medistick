@@ -4,7 +4,7 @@ import React from 'react';
 const Section2 = () => {
 
     return (
-        <section className="pt-20 relative">
+        <section className="pt-32 relative">
             <div className="mb-10 -space-y-5">
                 <p className="text-center text-[#0095B6] text-[32px] font-semibold">The awesome features of</p>
                 <p className="text-center text-[#0095B6] text-[32px] font-semibold">this product</p>
@@ -28,7 +28,7 @@ const Section2 = () => {
 
                 <div>
                     <div className='flex justify-center items-center'>
-                    <img src="/phone2.png" alt="" srcset="" className='' />
+                    <img src="/phone2.png" alt="" srcset="" className='md:relative md:-top-20' />
                     </div>
                 </div>
 

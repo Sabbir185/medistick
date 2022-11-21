@@ -44,26 +44,30 @@ const Footer = () => {
 
                         <div className="ml-10 space-y-2 mt-3">
                             <div className="flex gap-3">
-                                <img src="/img/call.png" className="w-6 h-6" alt="" />
+                                <p><img src="/img/call.png" className="w-6 h-6" alt="" /></p>
                                 <p className="text-[14px]">+8801404049797</p>
                             </div>
                             <div className="flex gap-3">
-                                <img src="/img/sms-tracking.png" className="w-6 h-6" alt="" />
-                                <p className="text-[14px]">info@appstick.com.bd</p>
+                                <p><img src="/img/sms-tracking.png" className="w-6 h-6" alt="" /></p>
+                                <p className="text-[14px]"><a href="mailto:info@appstick.com.bd" className='text-gray-700' style={{textDecoration: 'none'}}>info@appstick.com.bd</a></p>
                             </div>
                             <div className="flex gap-3">
-                                <img src="/img/global-search.png" className="w-6 h-6" alt="" />
-                                <p className="text-[14px]">https://appstick.com.bd/</p>
+                                <p><img src="/img/global-search.png" className="w-6 h-6" alt="" /></p>
+                                <p className="text-[14px]"><a href="https://appstick.com.bd/" target='_blank' rel="noreferrer" className='text-gray-700' style={{textDecoration: 'none'}}>https://appstick.com.bd/</a></p>
                             </div>
                         </div>
 
                         <div className="flex gap-3 mt-4">
                             <img src="/img/24-support.png" className="w-6 h-6" alt="" />
-                            <p className="text-[16px]">Hepl and Support</p>
+                            <p className="text-[16px]">Help and Support</p>
                         </div>
                         <div className="flex gap-3 ml-14">
-                            <img src="/img/whatsapp_line.png" className="w-8 h-8" alt="" srcset="" />
-                            <img src="/img/Frame.png" className="w-7 h-7" alt="" srcset="" />
+                            <a href="https://wa.me/+8801404049797" target='_blank' rel="noreferrer">
+                                <img src="/img/whatsapp_line.png" className="w-8 h-8" alt="" srcset="" />
+                            </a>
+                            <a href="https://join.skype.com/invite/vAanTx5sbAUD" target='_blank' rel="noreferrer">
+                                <img src="/img/Frame.png" className="w-7 h-7" alt="" srcset="" />
+                            </a>
                         </div>
 
                     </div>

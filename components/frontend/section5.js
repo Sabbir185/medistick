@@ -4,7 +4,7 @@ import React from 'react';
 const Section5 = () => {
 
     return (
-        <section className="pt-10">
+        <section className="py-24">
             <div className="md:grid md:grid-cols-2 md:gap-10 h-full w-full video_section border px-5 rounded-lg pt-10 relative">
                 <div className="flex justify-center items-center py-3">
                     <div className="text-[#FFFFFF] mt-5">
