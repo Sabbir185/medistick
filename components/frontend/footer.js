@@ -6,21 +6,23 @@ const Footer = () => {
     return (
         <section className="mt-24 px-5 md:px-10 border-t" style={{ background: "rgba(0, 149, 182, 0.05)" }}>
             <div className='h-2 md:h-0'></div>
-            <div className="md:grid md:grid-cols-4 md:gap-3 pb-8">
-                <div className="mt-10">
-                    <img src="/img/Logo (2).png" className="mx-auto mb-4" alt="" srcset="" />
-                    <div>
-                        <p className="text-justify">This Medistick flutter app template is for a doctor consultant app. You can find your doctors here, make appointments with them, chat, voice call or video call with them.</p>
-                        <p className="text-center text-[18px] text-[#0095B6] mt-2">Doctor Consultation Solution</p>
-                        <div className="flex justify-center items-center mt-1 gap-2">
-                            <p>Developed by</p>
-                            <p><img src="/img/Appstick-Logo-3000x3000 1.png" alt="" className='' srcset="" /></p>
-                            <p>Appstick</p>
+            <div className="md:grid md:grid-cols-3 lg:grid-cols-4 md:gap-3 pb-8">
+                <div className="mt-10 md:flex md:justify-end">
+                    <div className=''>
+                        <img src="/img/Logo (2).png" className="mx-auto mb-4" alt="" srcset="" />
+                        <div>
+                            <p className="text-justify">This Medistick flutter app template is for a doctor consultant app. You can find your doctors here, make appointments with them, chat, voice call or video call with them.</p>
+                            <p className="text-center text-[18px] text-[#0095B6] mt-2">Doctor Consultation Solution</p>
+                            <div className="flex justify-center items-center mt-1 gap-2">
+                                <p>Developed by</p>
+                                <p><img src="/img/Appstick-Logo-3000x3000 1.png" alt="" className='' srcset="" /></p>
+                                <p>Appstick</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="mt-10">
+                <div className="mt-10 md:flex md:justify-end">
                     <div className="">
                         <div className="flex gap-3 items-center justify-center  mt-4">
                             <p><img src="/img/play-cricle.png" className="w-7" alt="" /></p>
@@ -33,7 +35,7 @@ const Footer = () => {
                 </div>
 
                 {/* contact */}
-                <div className="mt-10 md:pl-5">
+                <div className="mt-10 md:flex md:justify-end">
                     <div>
                         <div className="flex gap-3 mb-2 mt-[25px]">
                             <img src="/img/Mask group (2).png" className="w-6 h-6" alt="" />

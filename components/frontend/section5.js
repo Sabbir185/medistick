@@ -5,7 +5,7 @@ const Section5 = () => {
 
     return (
         <section className="pt-10">
-            <div className="md:grid md:grid-cols-2 md:gap-10 h-full w-full video_section border px-5 rounded-lg pt-10">
+            <div className="md:grid md:grid-cols-2 md:gap-10 h-full w-full video_section border px-5 rounded-lg pt-10 relative">
                 <div className="flex justify-center items-center py-3">
                     <div className="text-[#FFFFFF] mt-5">
                         <h1 className="text-[32px] pb-5 font-semibold text-[#FFFFFF]">How App Works?</h1>
@@ -40,13 +40,15 @@ const Section5 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-center items-center w-full">
+                <div className="flex justify-center items-center w-full z-10">
                     <div className="bg-white rounded-[20px] flex justify-center items-center h-full w-full md:h-[450px] md:w-[450px] border">
                         <iframe width="400" height="400" src="https://www.youtube.com/embed/5I8oC1d4lh8" title="Deno v1.28: npm compatibility is stable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
 
                 <div className='h-10 md:h-0'></div>
+
+                <img className='absolute top-[20%] right-0 z-0' src="/star.png" alt="" srcset="" />
             </div>
         </section>
     );
