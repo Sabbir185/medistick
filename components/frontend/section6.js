@@ -58,9 +58,6 @@ export default class CenterMode extends Component {
                     <div>
                         <img src="/1 (5).png" className="md:h-[500px]" alt="" srcset="" />
                     </div>
-                    <div>
-                        <img src="/1 (6).png" className="md:h-[500px]" alt="" srcset="" />
-                    </div>
                 </Slider>
 
                 <img src="/aaa123.png" alt="" srcset="" className='absolute right-0 top-0 opacity-20'/>
