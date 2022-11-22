@@ -31,7 +31,7 @@ const Footer = () => {
                         <div className="flex justify-center mt-3 pt-2">
                             {/* <iframe width="250" height="200" src="https://www.youtube.com/embed/5I8oC1d4lh8" title="Deno v1.28: npm compatibility is stable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
 
-                            <iframe width="300" height="250" src="https://www.youtube.com/embed/oImP8uRoq58" title="Ecomic Flutter App Template | User + Vendor+ Delivery App | Appstick | Devignedge" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="250" height="200" src="https://www.youtube.com/embed/dkhpDp23KKQ" title="Medistick Flutter App Template | Doctor Consultant App | Appstick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

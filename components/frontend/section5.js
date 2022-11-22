@@ -44,7 +44,7 @@ const Section5 = () => {
                     <div className="bg-white rounded-[20px] flex justify-center items-center h-full w-full md:h-[450px] md:w-[450px] border">
                         {/* <iframe width="400" height="400" src="https://www.youtube.com/embed/5I8oC1d4lh8" title="Deno v1.28: npm compatibility is stable" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
 
-                        <iframe width="400" height="400" src="https://www.youtube.com/embed/oImP8uRoq58" title="Ecomic Flutter App Template | User + Vendor+ Delivery App | Appstick | Devignedge" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="400" height="400" src="https://www.youtube.com/embed/dkhpDp23KKQ" title="Medistick Flutter App Template | Doctor Consultant App | Appstick" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
 
