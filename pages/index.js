@@ -7,6 +7,7 @@ import Section4 from "../components/frontend/section4";
 import Section5 from "../components/frontend/section5";
 import Footer from "../components/frontend/footer";
 import CenterMode from "../components/frontend/section6";
+import SwipeToSlide from "../components/frontend/swipeToSlide";
 
 
 export default function Home() {
@@ -32,7 +33,7 @@ export default function Home() {
                 <Section4 />
 
                 {/* section 7 */}
-                <CenterMode />
+                <SwipeToSlide />
 
                 {/* section 5 */}
                 <Section5 />
