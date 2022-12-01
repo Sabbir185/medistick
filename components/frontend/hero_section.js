@@ -14,7 +14,7 @@ const HeroSection = () => {
                     <Link href="https://drive.google.com/file/d/1NURtJjkJP-VwRLljwQ88ttOJ5KyQqeb3/view">
                         <a style={{ textDecoration: "none" }} target='_blank' className="text-gray-700 hover:text-blue-500 whitespace-pre">Documentation</a>
                     </Link>
-                    <Link href="https://codecanyon.net/user/appstickltd/portfolio">
+                    <Link href="https://codecanyon.net/item/medistick-doctor-consultation-flutter-template/41826879">
                         <a target='_blank'>
                             <img src="/img/Purchase.png" alt="" srcset="" />
                         </a>
@@ -35,7 +35,7 @@ const HeroSection = () => {
                                 <button className="w-36 h-12 inline-block rounded-md bg-[#0095B6] hover:bg-cyan-700 text-white text-center shadow-2xl shadow-cyan-200">Download Apk</button>
                             </a>
                         </Link>
-                        <Link href="https://codecanyon.net/user/appstickltd/portfolio">
+                        <Link href="https://codecanyon.net/item/medistick-doctor-consultation-flutter-template/41826879">
                             <a target='_blank'>
                                 <button className="w-36 h-12 inline-block rounded-md bg-[#43BEC6] hover:bg-cyan-500 text-white text-center shadow-2xl shadow-cyan-200">Buy Now</button>
                             </a>
