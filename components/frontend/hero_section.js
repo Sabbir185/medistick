@@ -14,11 +14,12 @@ const HeroSection = () => {
                     <Link href="https://drive.google.com/file/d/1NURtJjkJP-VwRLljwQ88ttOJ5KyQqeb3/view">
                         <a style={{ textDecoration: "none" }} target='_blank' className="text-gray-700 hover:text-blue-500 whitespace-pre">Documentation</a>
                     </Link>
-                    <Link href="#">
-                        <span className='text-gray-700 hover:text-blue-500 cursor-pointer'>
-                            {/* <img src="/img/Purchase.png" alt="" srcset="" /> */}
-                            Purchase Now
-                        </span>
+                    <Link href="https://www.codester.com/items/40696/medistick-doctor-consultation-flutter-ui-kit">
+                        <a target="_blank" className='no-underline'>
+                            <span className='text-gray-700 hover:text-blue-500 cursor-pointer'>
+                                Purchase Now
+                            </span>
+                        </a>
                     </Link>
                 </div>
             </div>
@@ -36,8 +37,8 @@ const HeroSection = () => {
                                 <button className="w-36 h-12 inline-block rounded-md bg-[#0095B6] hover:bg-cyan-700 text-white text-center shadow-2xl shadow-cyan-200">Download Apk</button>
                             </a>
                         </Link>
-                        <Link href="#">
-                            <a>
+                        <Link href="https://www.codester.com/items/40696/medistick-doctor-consultation-flutter-ui-kit">
+                            <a target='_blank'>
                                 <button className="w-36 h-12 inline-block rounded-md bg-[#43BEC6] hover:bg-cyan-500 text-white text-center shadow-2xl shadow-cyan-200">Buy Now</button>
                             </a>
                         </Link>
